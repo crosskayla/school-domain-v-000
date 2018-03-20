@@ -19,6 +19,10 @@ class School
     end
   end
 
+  def roster
+    ROSTER
+  end
+
 end
 
 school = School.new("Greendale Community College")
