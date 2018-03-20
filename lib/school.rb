@@ -27,5 +27,6 @@ class School
     @roster.each do |key, values|
       sorted_names[key] = values.sort
     end
+    sorted_names
   end
 end
