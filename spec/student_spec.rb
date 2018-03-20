@@ -13,8 +13,8 @@ describe 'School' do
 
   describe "#add_student" do
     it 'is able to add a student' do
-      @school.add_student("AC Slater", 9)
-      expect(@school.roster).to eq({9 => ["AC Slater"]})
+      @school.add_student("AC Slater", 10)
+      expect(@school.roster).to eq({10 => ["AC Slater"]})
     end
 
     it 'is able to add multiple students to a class (grade)' do
