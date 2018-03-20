@@ -28,4 +28,5 @@ end
 school = School.new("Greendale Community College")
 school.add_student("Kayla", 12)
 school.add_student("Nate", 11)
+school.add_student("Elizabeth", 12)
 puts school.roster
