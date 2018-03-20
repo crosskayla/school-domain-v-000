@@ -23,8 +23,8 @@ class School
   end
 
   def sort
-    @roster.collect do |grade, names|
-      names = names.sort
-    end
+    sorted_names = {}
+    @roster.each do |key, values|
+      sorted_names[grade] = values.sort
   end
 end
