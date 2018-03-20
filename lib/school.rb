@@ -11,7 +11,7 @@ class School
   def add_student(name, grade)
     if ROSTER.key?(grade)
       ROSTER << name
-    else 
+    else
       ROSTER[grade] = []
       ROSTER[grade] << name
     end
@@ -20,3 +20,4 @@ class School
 end
 
 school = School.new("Greendale Community College")
+school.add_student("Kayla", 12)
