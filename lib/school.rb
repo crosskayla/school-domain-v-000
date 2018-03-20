@@ -1,3 +1,5 @@
+require pry
+
 class School
 
   attr_reader :roster
