@@ -14,6 +14,7 @@ class School
     else
       ROSTER[grade] = []
       ROSTER[grade] << name
+      binding.pry
     end
   end
 
