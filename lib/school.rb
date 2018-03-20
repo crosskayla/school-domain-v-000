@@ -2,7 +2,7 @@ require 'pry'
 
 class School
 
-  attr_reader :roster, name 
+  attr_reader :roster, :name 
 
   ROSTER = {}
 
